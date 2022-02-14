@@ -1,2 +1,0 @@
-# GitDesk
-lektion 1
