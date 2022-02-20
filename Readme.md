@@ -23,3 +23,5 @@ Checklista:
  ●Fortsätt göra tester och utforska på så sätt fler delar tills du känner dig klar. Checka in iGithub.●Försök skapa en smoke test som grund för din automatisering.
  
  ●Checka hela tiden in i Github○Kanske i slutet på dagen○Kanske när du fått något att fungera eller att du nått en viss milsten●Om du pajar ditt lokala material (dvs det på din dator), hämta hem från Github på detsenaste du checkade in.
+
+ Nu försöker jag sätta igång en tradition av dokumentation
