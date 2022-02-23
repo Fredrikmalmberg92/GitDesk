@@ -20,9 +20,19 @@ namespace SeleniumTestProject
 
             driver.Manage().Window.Maximize();
             driver.Navigate().GoToUrl("https://boardgamegeek.com/");
-            //35:03
-            driver.Close();
-            driver.Quit();
+            //35:03 PASS!!
+            IWebElement inloggKnapp = driver.FindElement(By.LinkText("Sign In"));
+
+            inloggKnapp.Click();
+
+            IWebElement username = driver.FindElement(By.Id("inputUsername"));
+
+            username.Click();
+
+            username.SendKeys("blabla123");
+
+            //driver.Close();
+            //driver.Quit();
 
             // Olika typer av metoder
 
