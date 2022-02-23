@@ -29,10 +29,34 @@ namespace SeleniumTestProject
 
             username.Click();
 
-            username.SendKeys("blabla123");
+            username.SendKeys("blabla111");
 
-            //driver.Close();
-            //driver.Quit();
+            IWebElement password = driver.FindElement(By.Id("inputPassword"));
+
+            password.Click();
+
+            password.SendKeys("thisispassword");
+
+            IWebElement SignIn = driver.FindElement(By.XPath("/html/body/ngb-modal-window/div/div/gg-login-modal/gg-login-form/form/fieldset/div[3]/button[1]"));
+
+            SignIn.Click();
+
+            driver.Manage().Timeouts().ImplicitWait = TimeSpan.FromSeconds(5);
+
+            IWebElement accountMenu = driver.FindElement(By.XPath("/html/body/gg-app/div/gg-header/header/nav/div/div[1]/div/div[2]/gg-menu-nav-user/ul/li[2]/gg-my-geek/div/button/span[2]"));
+
+            accountMenu.Click();
+
+            IWebElement signOut = driver.FindElement(By.XPath("/html/body/gg-app/div/gg-header/header/nav/div/div[1]/div/div[2]/gg-menu-nav-user/ul/li[2]/gg-my-geek/div/div/div/div[2]/a[9]"));
+
+            signOut.Click();
+
+            //Assert.AreEqual
+
+
+
+            driver.Close();
+            driver.Quit();
 
             // Olika typer av metoder
 
