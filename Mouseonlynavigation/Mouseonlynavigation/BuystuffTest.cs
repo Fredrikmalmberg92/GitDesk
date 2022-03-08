@@ -52,9 +52,7 @@ public class BuystuffTest {
       builder.MoveToElement(element).Perform();
     }
     {
-      //var element = driver.FindElement(By.tagName("body"));
       Actions builder = new Actions(driver);
-      //builder.MoveToElement(element, 0, 0).Perform();
     }
     {
       var element = driver.FindElement(By.CssSelector(".btn-xs:nth-child(3)"));
