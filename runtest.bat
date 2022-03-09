@@ -1,0 +1,1 @@
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\TestWindow\vstest.console.exe" "Mouseonlynavigation/Mouseonlynavigation/bin/Debug/net6.0/Mouseonlynavigation.dll"
